@@ -1,12 +1,12 @@
 ----------------------------
 MIT-BIH Arrhythmia Database
 ----------------------------
-https://www.physionet.org/content/mitdb/1.0.0/
+[MIT-BIH](https://www.physionet.org/content/mitdb/1.0.0/)
 
 ---------------------------------
 Install WFDB Toolbox for MATLAB
 ---------------------------------
-https://archive.physionet.org/physiotools/matlab/wfdb-app-matlab/
+(https://archive.physionet.org/physiotools/matlab/wfdb-app-matlab/)
 
 -------------------------------------------------
 Convert files into MATLAB readable files (.mat)
