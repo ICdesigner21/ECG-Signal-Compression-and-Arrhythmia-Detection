@@ -11,6 +11,9 @@ Retrieved all *.dat files
    
 %}
 
+------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
 cd('D:\M10128033\LAB\mit-bih-arrhythmia-database-1.0.0\arrhythmia_files\CNN_44_records_data\');
 dir_path = 'D:\M10128033\LAB\mit-bih-arrhythmia-database-1.0.0\arrhythmia_files\CNN_44_records_data\';
 names = dir([dir_path,'\*.mat']);
