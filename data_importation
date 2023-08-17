@@ -1,20 +1,23 @@
------------------------------------------------
+----------------------------
 MIT-BIH Arrhythmia Database
------------------------------------------------
+----------------------------
 https://www.physionet.org/content/mitdb/1.0.0/
 
+---------------------------------
+Install WFDB Toolbox for MATLAB
+---------------------------------
+https://archive.physionet.org/physiotools/matlab/wfdb-app-matlab/
 
+-------------------------------------------------
+Converted files into MATLAB readable files (.mat)
+-------------------------------------------------
 MIT-BIH Arrhythmia Database contains 48 records and each record has four
 different files, each with different formats e.g .dat, .hec, .atr, .xws. 
 
-Retrieved all *.dat files   
-   
-%}
 
-------------------------------------------------------------------------------
+cd('D:\mit-bih-arrhythmia-database-1.0.0\');
 
----------------------------------------------------------------------------
-cd('D:\M10128033\LAB\mit-bih-arrhythmia-database-1.0.0\arrhythmia_files\CNN_44_records_data\');
+
 dir_path = 'D:\M10128033\LAB\mit-bih-arrhythmia-database-1.0.0\arrhythmia_files\CNN_44_records_data\';
 names = dir([dir_path,'\*.mat']);
 file_name = {names.name};
