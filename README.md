@@ -1,8 +1,5 @@
 # ECG-Signal-Compression-and-Arrhythmia-Detection
 
-This project contains 
-
-1: Arrhythmia detection
-2: Compression
+This project contains arrhythmia detection and compression of the ECG signal.
 
 Firstly, arrhythmia detection was performed, then compression of the ECG signal.
